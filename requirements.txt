@@ -1,0 +1,21 @@
+# Core ML libraries
+torch>=1.10.0
+# Install torchtext compatible with your torch version
+# For Mac M1/M2/M3, you might need to install from source:
+# git clone https://github.com/pytorch/text torchtext
+# cd torchtext
+# git submodule update --init --recursive
+# CC=clang python setup.py clean install
+transformers>=4.18.0
+numpy>=1.20.0
+
+# Data processing and visualization
+matplotlib>=3.5.0
+scikit-learn>=1.0.0
+pandas>=1.3.0
+tqdm>=4.62.0
+
+# Jupyter environment
+jupyter>=1.0.0
+jupyterlab>=3.0.0
+ipykernel>=6.0.0
